@@ -1,0 +1,25 @@
+today lesson in cloud computing are
+
+1. Create SSH Key
+Before you start, you are going to need a key pair for authentication to your service.
+$ ssh-keygen -b 2048 -t rsa -f myOracleCloudKey
+$ chmod 600 myOracleCloudKey*
+Enter and confirm the passphrase when prompted. You will be asked to upload the public key during the service creation.
+
+
+2. Create a compute VM
+Try one of service in the OCI compute service
+
+3. Connecting to the VM using SSH
+Connect to the "opc" operating system user by specifying your private key and the public IP address from your DB Systems page.
+
+$ ssh -i ./myOracleCloudKey opc@123.123.123.123
+
+[opc@obvm1 ~]$
+Once connected, you can run commands using "sudo", or switch to "root".
+
+[opc@obvm1 ~]$ sudo su -
+[root@obvm1 ~]#
+
+4. Configure HTTPS Access
+If the VM is publicly accessible and you need HTTPS access configured, you can get certificates for free using Let's Encrypt and CertBot
