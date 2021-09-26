@@ -1,0 +1,80 @@
+= Cloud Computing Resume =
+
+= Virtual Cloud Network =
+
+What is Virtual Cloud Network?
+- Jaringan pribadi virtual yang disiapkan di pusat data Oracle. 
+Ini sangat mirip dengan jaringan konvensional,dengan aturan firewall dan jenis gateway 
+komunikasi tertentu yang dapat dipilih untuk digunakan.
+
+
+= Subnets =
+- Subdivisi yang ditentukan dalam VCN (misalnya, 10.0.0.0/24, 10.0.1.0/24, atau 2001:DB8::/64).
+Subnet berisi Virtual Network Interface Cards (VNIC), yang ditautkan ke dalam instance.
+- Setiap subnet terdiri dari rentang alamat IP yang berdekatan (untuk IPv4 dan IPv6, jika diaktifkan)
+yang tidak tumpang tindih dengan subnet lain dalam VCN.
+
+
+= VNIC(Virtual Network Interface Cards) =
+- melekat pada sebuah instance dan berada di subnet untuk mengaktifkan koneksi ke VCN subnet.
+- VNIC menentukan bagaimana instances terhubung dengan endpoints di dalam dan di luar VCN. 
+- tiap instans memiliki VNIC utama yang dibuat bersamaan dengan instance dan tidak dapat dihapus.
+
+
+= Private IP =
+- Alamat IPv4 pribadi dan informasi terkait untuk menangani instance (misalnya, nama host untuk DNS).
+- Setiap VNIC memiliki IP pribadi primer, dan Anda dapat menambah dan menghapus IP pribadi sekunder.
+- Alamat IP pribadi utama pada instance tidak akan berubah selama instance digunakan dan tidak dapat dihapus dari instance tersebut.
+
+
+= Public IP =
+- Alamat IPv4 publik dan informasi terkait.
+- Anda dapat secara opsional menetapkan IP publik ke instances Anda atau sumber daya lain yang memiliki IP pribadi.
+- IP publik dapat bersifat sementara atau dilindungi undang-undang.
+
+
+= DRG (Dynamic Routing Gateway) =
+- Router virtual (opsional) yang dapat ditambahkan ke VCN.
+- menyediakan jalur lalu lintas jaringan pribadi antara VCN Anda dan jaringan lokal.
+- dapat menggunakan komponen Jaringan lain dan router di jaringan lokal untuk membuat 
+koneksi melalui Site-to-Site VPN atau OCI FastConnect.
+- menyediakan jalur lalu lintas jaringan pribadi antara VCN pribadi dan VCN lain di wilayah yang berbeda.
+
+
+= Service Gateaway =
+- Router virtual (opsional) yang dapatditambahkan ke VCN pribadi.
+- menyediakan jalur untuk lalu lintas jaringan pribadi antara VCN pribadi dan layanan yang didukung di Oracle Services Network 
+(contoh: Oracle Cloud Infrastructure Object Storage dan Autonomous Database). Misalnya, Sistem DB di subnet pribadi di VCN Anda
+dapat mencadangkan data ke Object Storage tanpa memerlukan alamat IP publik atau akses ke internet.
+
+
+= LPG (Local Peering Gateway =
+- Router virtual (opsional) yang dapat ditambahkan ke VCN pribadi.
+- mengaitkan satu VCN dengan VCN lain di wilayah yang sama.
+- Peering berarti VCN berkomunikasi menggunakan alamat IP pribadi, tanpa lalu lintas internet atau hanya melalui jaringan lokal di cloud.
+- VCN tertentu harus memiliki LPG terpisah untuk setiap peering yang dibuatnya.
+
+
+= RPC (Remote Peering Connection) =
+- Komponen yang dapat Anda tambahkan ke DRG. Ini memungkinkan mengaitkan satu VCN dengan VCN lain di wilayah yang berbeda.
+
+
+= Route Tables = 
+- Virtual route tables untuk VCN Anda. 
+- Mereka memiliki aturan untuk merutekan lalu lintas dari subnet ke tujuan di luar VCN melalui 
+gateway atau instance yang dikonfigurasi secara khusus.
+- VCN Anda dilengkapi dengan tabel rute default yang kosong, dan Anda dapat menambahkan tabel rute kustom Anda sendiri.
+
+
+= Security Rules =
+- Aturan firewall virtual untuk VCN. Ini untuk aturan masuk dan keluar yang menentukan jenis lalu lintas (protokol dan port)
+yang diizinkan masuk dan keluar dari instance. dapat dipilih apakah aturan yang diberikan bersifat stateful atau stateless.
+- dapat mengizinkan lalu lintas SSH masuk dari mana saja ke sekumpulan instances dengan menyiapkan aturan ingress
+stateful dengan CIDR sumber 0.0.0.0/0, dan port TCP tujuan 22.
+- Untuk menerapkan aturan keamanan, dapat menggunakan grup keamanan jaringan atau daftar keamanan.
+Grup keamanan jaringan terdiri dari seperangkat aturan keamanan yang hanya berlaku untuk sumber daya dalam grup tersebut.
+
+
+= DHCP Options =
+- Informasi konfigurasi yang secara otomatis diberikan ke instances saat dilakukan booting.
+
