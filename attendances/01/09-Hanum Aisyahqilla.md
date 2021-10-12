@@ -3,7 +3,7 @@
 _________________________________________________________________________
 
 <h3>Introduction</h3>
-<p>Cloud Computing is an umbrella term used to refer Internet bassed develpment and services. It is a general term used to describe a new class of netwrok based computing that takes place over the Internet. It is also a collection/group of integrated and networked hardware, softwar, and Internet infrastructure. Using the Internet for coomunication and transport provides hardware, software and networking services to clients. 
+<p>Cloud Computing is an umbrella term used to refer Internet bassed develpment and services. It is a general term used to describe a new class of netwrok based computing that takes place over the Internet. It is also a collection/group of integrated and networked hardware, softwar, and Internet infrastructure. Using the Internet for coomunication and transport provides hardware, software and networking services to clients.</p>
 
 _________________________________________________________________________
 
