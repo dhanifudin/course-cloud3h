@@ -1,13 +1,50 @@
 Nama : Rajendra Rakha Arya Prabaswara
+
 NIM  : 1941720080
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Vivamus at augue eget arcu dictum varius duis at. Eu lobortis elementum nibh tellus molestie nunc non blandit. Eget sit amet tellus cras adipiscing. Quis eleifend quam adipiscing vitae proin. Nunc lobortis mattis aliquam faucibus purus. Cursus turpis massa tincidunt dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Vel pretium lectus quam id leo in vitae. Ornare aenean euismod elementum nisi quis. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Enim sit amet venenatis urna cursus eget nunc. Nulla facilisi morbi tempus iaculis urna. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla.
+# Today we have a quiz 🙃
 
-Arcu cursus vitae congue mauris. Adipiscing diam donec adipiscing tristique. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Sociis natoque penatibus et magnis dis parturient montes nascetur. Fames ac turpis egestas integer. Duis ultricies lacus sed turpis tincidunt. Mauris pharetra et ultrices neque ornare. Fermentum iaculis eu non diam phasellus vestibulum lorem. Mauris a diam maecenas sed enim ut sem viverra aliquet. Vulputate dignissim suspendisse in est ante in nibh mauris. Nec sagittis aliquam malesuada bibendum arcu vitae. Tellus pellentesque eu tincidunt tortor aliquam. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Aliquam etiam erat velit scelerisque. Nam at lectus urna duis convallis convallis tellus. Et malesuada fames ac turpis egestas sed tempus urna et. Viverra accumsan in nisl nisi scelerisque. Non pulvinar neque laoreet suspendisse interdum consectetur. Lorem donec massa sapien faucibus et molestie ac.
+It's not super hard but it would take sometime.
+Deploy open source web applications (PHP or non PHP) other
+than WordPress.  Application must require database instance
+and using IP private connectivity. Example: LMS Application
+(moodle), Online Quiz (TC Exam), Git Repository (Gogs, Gitea)
+etc. Create your report using video, then upload into youtube.
 
-Condimentum vitae sapien pellentesque habitant morbi tristique senectus. Enim ut tellus elementum sagittis vitae et leo duis. Neque viverra justo nec ultrices dui sapien. Cursus in hac habitasse platea dictumst. Fames ac turpis egestas maecenas pharetra. Id neque aliquam vestibulum morbi blandit cursus risus. Ultrices dui sapien eget mi proin sed libero enim sed. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Malesuada bibendum arcu vitae elementum curabitur. Morbi quis commodo odio aenean sed adipiscing diam. Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Eros in cursus turpis massa tincidunt dui ut. Quis ipsum suspendisse ultrices gravida. A diam maecenas sed enim ut. Facilisi morbi tempus iaculis urna id volutpat. Cras pulvinar mattis nunc sed. Sagittis orci a scelerisque purus semper eget duis at. Neque egestas congue quisque egestas diam. Tellus mauris a diam maecenas sed enim ut sem.
+# Internet of Things (IoT)
+The Internet of Things (IoT) describes a network of physical objects—“Things”—embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. These devices range from common household items to
+sophisticated industrial tools. With more than 7 billion IoT devices connected today, experts predict this number will grow to 10 billion by 2020 and 22 billion by 2025.
 
-Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Morbi tristique senectus et netus. Lorem mollis aliquam ut porttitor leo a. Vel orci porta non pulvinar neque laoreet. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Urna molestie at elementum eu facilisis sed odio morbi. Lobortis elementum nibh tellus molestie nunc non. Aliquam sem et tortor consequat id porta nibh venenatis cras. Leo vel fringilla est ullamcorper eget nulla facilisi etiam.
+# Important of Platform as a Service :
+-Fast (near real time) capacity provisioning on physical servers
+-Highly optimized application for server ratios and the ability to turn off spare capacity
+-Proactive cross-domain monitoring and alerting
+-Measurement facility to set usage parameters for PaaS 
 
-Nec ullamcorper sit amet risus nullam eget felis. Platea dictumst quisque sagittis purus sit amet volutpat. Egestas sed sed risus pretium quam vulputate dignissim. Mauris pharetra et ultrices neque ornare. Platea dictumst vestibulum rhoncus est. Magna sit amet purus gravida quis. Auctor eu augue ut lectus arcu. Velit dignissim sodales ut eu. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Ac tincidunt vitae semper quis lectus nulla. Ultricies leo integer malesuada nunc vel risus commodo. Mi bibendum neque egestas congue quisque egestas. Posuere ac ut consequat semper viverra nam. Enim tortor at auctor urna nunc id cursus. Eu tincidunt tortor aliquam nulla. Sodales ut eu sem integer vitae justo eget magna fermentum. Id aliquet risus feugiat in ante. Vulputate dignissim suspendisse in est ante in nibh. Pharetra massa massa ultricies mi quis hendrerit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
