@@ -1,0 +1,13 @@
+In today's class, there was no new material that was being discussed. We were assigned to deploy a static web or a web application in Compute and Database services using object storage.
+In deploying a static website, The goal is to run a website for free using Oracle Cloud Infrastructure Object Storage and Cloudflare. 
+Oracle's Cloud Infrastructure has a free tier which provides a set of always free resources including object storage which can be used to serve files over HTTPS. Cloudflare also 
+has a free tier which can be used to make the files located in object storage available under a custom domain.
+
+To deploy a website in a VM instance on Oracle Cloud Free Tier.
+It involves the following steps:
+
+. Create an always free compute VM instance.
+. Add ingress rules in Virtual Cloud Network subnet.
+. Install Caddy HTTP server and PHP.
+. Configure local iptables firewall.
+. Test the website installation.
