@@ -1,0 +1,15 @@
+What Is a Virtual Cloud Network (VCN)?
+A virtual cloud network (VCN) refers to a system that has devices, virtual machines, servers, and data centers linked and controlled using wireless technology and software. With virtual cloud networking, an organization can expand their network as they see fit, without having to sacrifice efficiency and functionality.
+
+A VCN network is different from other common networks in both the technologies it uses and its scope. For example, a local-area network (LAN) is a type of network that is wired and therefore often confined to one building. Even though a LAN has wireless connections, the central components that get their signal from the internet are still localized within the physical structure of the building. Also, the devices and resources connected to the LAN typically need to either be wired directly to routers and switches or positioned relatively close to access points, so they can receive their signals. This limits the scope and flexibility of a LAN when compared to a virtual cloud network.
+
+
+What Are the Advantages of Using a Virtual Cloud Network (VCN)?
+A  VCN comes with several advantages that make it a more viable solution for a variety of organizations:
+
+1. The elimination of many physical connections and the cabling needed to facilitate them
+2. Cost savings resulting from more centralized control of your network. There is no need to deploy several people to solve disparate problems, perform tests, or deploy solutions. Everything can be done from a central location
+3. Greater flexibility when it comes to routing connections and configuring your network, enabling you to segment your network as you see fit
+4. More control over how traffic flows through your network, including the configuration of firewalls according to the needs of specific segments of the network
+5. A more productive IT staff that is able to deploy solutions, test them, and address issues remotely
+6. Easier scalability for the business because of the power to deploy upgrades and configurations virtually and automatically, as well as implement changes to applications and appliances that interface with the network
