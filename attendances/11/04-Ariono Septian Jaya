@@ -1,0 +1,72 @@
+Nama : Ariono Septian Jaya
+NIM  : 1941720092
+---
+## Docker Network Type
+
+Bridge
+Host
+None
+
+## Docker Network Bridge
+
+The default network type from Docker.
+When the Docker service daemon is running, it will configure a virtual bridge called docker0.
+If you don't specify the network used, docker run –net= then the Docker daemon will connect to the container using a network bridge.
+
+## Docker Network Host
+
+Docker network of this type is to put the container in the stack hostnya network.
+All predefined network interfaces can be accessed via containers.
+When running the container use the –net=host parameter, so the container will use the network host.
+
+## Docker Network None
+
+Network None aims to not configure networking.
+No drivers are used on this type of Network.
+When you don't want the container to be accessible. The command used by adding the parameter –net=none.
+
+## Networking Docker Command
+
+The basic command is docker network then added some parameters after the basic command.
+docker network ls; to find out the available networks on the docker host.
+Docker network create; to create a network on the docker host.
+Docker network rm; to delete the network contained in the docker host.
+Docker network connect; to connect containers on a specific network.
+Docker network disconnect; break the network on the container.
+Docker network inspect; to know the details of a network.
+
+## Expose and mapping ports
+
+A common scenario is when you want a container to accept incoming connections, either from another container or from outside docker.
+An application server listening on port 80 or a database that accepts incoming requests.
+An image can also expose ports.
+
+## Persistent Storage (Volume)
+
+Persistent storage in docker aims to maintain the data in the container even though the container has been deleted
+Persistence storage can also share data between other containers or with docker hosts.
+
+## Docker Volume Command
+
+Docker volume create; to create a volume
+Docker volume inspect; displays detailed information on one or more volumes.
+Docker volume ls; displays a list of volumes.
+Docker volume rm; delete one or more volumes contained in the docker host.
+Docker volume prune; delete all unused volumes, all volumes that are not used by the container will be deleted.
+
+## Docker Volume Driver
+
+Similar to networks that have drivers, volumes also have volume types to be able to integrate with other types of storage.
+Docker volume driver for Azure file storage; a docker volume driver that Azure file storage uses to mount files shared in the cloud to a Docker container as a volume.
+
+## Docker Compose
+
+Docker compose is a tool for defining, launching, and managing services, where a service is defined as one or more of a docker container.
+Services and system services are defined in YAML files and managed using the docker-compose command-line command.
+
+## Docker Compose Basic Commands
+
+Docker-compose up; create and run a container, when the –d parameter is added, the container will run as a daemon.
+Docker-compose down; stop and delete all resources.
+Docker-compose logs; see the logging on the container.
+docker-compose ps; View running containers.
