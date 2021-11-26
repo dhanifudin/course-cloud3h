@@ -4,6 +4,7 @@ At this meeting the main discussion was Oracle Cloud Infrastructure Object Stora
 
 ## Object Storage Resources:
 
+
 1.Buckets : logical container for storing objects
 2.Objects : All data types, regardless of content type, are stored as objects
 3.Namespace : as top-level container for all buckets and objects
