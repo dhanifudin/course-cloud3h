@@ -13,3 +13,6 @@ Oracle Functions
 	Container Native 
 	Open Source Engine
 	Secure
+Function Development Kits (FDKs)
+	FDKs make it easy to write functions 
+	Simply write a `handler` function that adheres to the FDK’s interface and the FDK will provide the input to your function, as well as deal with returning the proper output format.
