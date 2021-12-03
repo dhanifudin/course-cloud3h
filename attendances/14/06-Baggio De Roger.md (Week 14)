@@ -1,0 +1,31 @@
+Docker has become an early adopter in Continuous Integration and Continuous Deployment. By leveraging the right integration with source code control mechanism such as GIT, 
+Jenkins can initiate a build process each time a developer commits his code. This process results in a new Docker Image which is instantly available across environment. 
+Using Docker images, teams can build, share, and deploy their application quickly.
+Challenges faced by organizations:
+. Unavailability of environments
+. Lack of environment configuration skill sets
+. High lead time in environments provisioning
+
+Continuous Integration:
+It is a development practice where developers integrate code into a shared repository several times a day which supports integrating new functionality with the existing code. 
+This integrated code also ensures that there are no errors in the runtime environment, allowing us to check how it reacts with other changes.
+Continuous Delivery:
+Continuous Delivery is the capability to deploy the software to any environment at any given time including binaries, configuration, and environment changes, if any.
+
+Dockers help developers to build their code and test their code in any environment to catch bugs early in the application development life cycle. 
+Dockers help streamline the process, save time on builds, and allows developers to run tests in parallel.
+
+Dockers can integrate with source control management tools like GitHub and Integration tools like Jenkins. Developers submit the code into GitHub, 
+test the code that automatically triggers a build using Jenkins creating an image. This image can be added to Docker registry to deal with inconsistencies between 
+different environment types.
+Following are a few benefits that you will experience:
+. Nullify the issue of inconsistent environment setups
+. Any machine that is running a Docker can use a Docker Image
+. Save time on build and set up processes
+. Allow developers to run tests in parallel
+. Separation of concerns in DevOps: developers can focus on developing apps and system administrators can focus on deployment
+. Improved Version Control by committing changes to your Docker images for standardizing environments
+
+Continuous Testing is a development practice, where developers need to continuously integrate the code into a shared repository during a day’s test plan. 
+To allow development teams to detect problems, automated builds are created that verify each test. If a continuous approach is not followed, integrations and fixing of errors 
+will take longer and will be a painful task.
