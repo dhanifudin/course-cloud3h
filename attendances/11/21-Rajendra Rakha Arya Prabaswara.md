@@ -1,10 +1,42 @@
 Nama : Rajendra Rakha Arya Prabaswara
+
 NIM  : 1941720080
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Vivamus at augue eget arcu dictum varius duis at. Eu lobortis elementum nibh tellus molestie nunc non blandit. Eget sit amet tellus cras adipiscing. Quis eleifend quam adipiscing vitae proin. Nunc lobortis mattis aliquam faucibus purus. Cursus turpis massa tincidunt dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Vel pretium lectus quam id leo in vitae. Ornare aenean euismod elementum nisi quis. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Enim sit amet venenatis urna cursus eget nunc. Nulla facilisi morbi tempus iaculis urna. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla.
+# Week 11
 
-Arcu cursus vitae congue mauris. Adipiscing diam donec adipiscing tristique. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Sociis natoque penatibus et magnis dis parturient montes nascetur. Fames ac turpis egestas integer. Duis ultricies lacus sed turpis tincidunt. Mauris pharetra et ultrices neque ornare. Fermentum iaculis eu non diam phasellus vestibulum lorem. Mauris a diam maecenas sed enim ut sem viverra aliquet. Vulputate dignissim suspendisse in est ante in nibh mauris. Nec sagittis aliquam malesuada bibendum arcu vitae. Tellus pellentesque eu tincidunt tortor aliquam. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Aliquam etiam erat velit scelerisque. Nam at lectus urna duis convallis convallis tellus. Et malesuada fames ac turpis egestas sed tempus urna et. Viverra accumsan in nisl nisi scelerisque. Non pulvinar neque laoreet suspendisse interdum consectetur. Lorem donec massa sapien faucibus et molestie ac.
+## What is Docker Compose ?
 
-Condimentum vitae sapien pellentesque habitant morbi tristique senectus. Enim ut tellus elementum sagittis vitae et leo duis. Neque viverra justo nec ultrices dui sapien. Cursus in hac habitasse platea dictumst. Fames ac turpis egestas maecenas pharetra. Id neque aliquam vestibulum morbi blandit cursus risus. Ultrices dui sapien eget mi proin sed libero enim sed. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Malesuada bibendum arcu vitae elementum curabitur. Morbi quis commodo odio aenean sed adipiscing diam. Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Eros in cursus turpis massa tincidunt dui ut. Quis ipsum suspendisse ultrices gravida. A diam maecenas sed enim ut. Facilisi morbi tempus iaculis urna id volutpat. Cras pulvinar mattis nunc sed. Sagittis orci a scelerisque purus semper eget duis at. Neque egestas congue quisque egestas diam. Tellus mauris a diam maecenas sed enim ut sem.
+That is a tool for defining, launching, and managing services, where the service is defined as one or more docker containers. Services and systems are defined in YAML files. What docker compose can do is build docker images, run applications as services, run full system services, manage services, scale up/down and view container logs.
+
+
+## Type Of Docker Network  
+
+### What is Bridge ?
+
+Is the default docker network type and when docker runs it will configure a virtual bridge called docker0. Each container will be allocated a virtual Ethernet eth0. Interface ethh0 will be assigned an IP address from the bridge range. Docker will look for an available IP and will configure eth0. When the container connects to the internet, the bridge will automatically forward packets between interfaces as long as they are connected and allowed to communicate with the host machine.
+
+### What is Host ?
+
+This network puts the container on the network host stack. All interfaces are accessible via containers. Using the host network is the same as the original network so it can perform the best network performance, even faster than containers that use bridges. The container will share the network from the host that goes directly to the internet. When using this network, the container will be accessible via the IP host. This network tends to be insecure because it is directly exposed to the internet.
+
+
+## Expose and Mapping ports
+
+This is a common scenario when you want a container to be accessed from outside of Docker. An image can also expose ports, i.e. the container will listen on the exposed port. For example, the Tomcat server application will listen on port 8080, so later all containers running on the same host will communicate with Tomcat on port 8080.
+
+## Persistent Storage (Volume)
+
+Aims to keep the data even if the container is deleted. Persistent storage can also share data between containers or docker hosts. For example, when a transaction data container is deleted, the data will still exist even though the container has been deleted.
+
+## Docker Volume Driver
+
+There are different types of volumes to integrate with other types of storage :
+
+1. Docker volume driver for Azure file storage, which is the driver for docker that Azure uses.
+
+2. IPFS (InterPlanetary File System) is an open source volume plugin that allows filesystems to become volumes.
+
+3. Keywhiz, a system used to manage and distribute confidential data such as TLS certificates, GPG keys, API tokens, and database credentials.
 
