@@ -1,10 +1,27 @@
 Nama : Rajendra Rakha Arya Prabaswara
+
 NIM  : 1941720080
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Vivamus at augue eget arcu dictum varius duis at. Eu lobortis elementum nibh tellus molestie nunc non blandit. Eget sit amet tellus cras adipiscing. Quis eleifend quam adipiscing vitae proin. Nunc lobortis mattis aliquam faucibus purus. Cursus turpis massa tincidunt dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Vel pretium lectus quam id leo in vitae. Ornare aenean euismod elementum nisi quis. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Enim sit amet venenatis urna cursus eget nunc. Nulla facilisi morbi tempus iaculis urna. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla.
+## In this week we focus on working on the final project as assigned.
 
-Arcu cursus vitae congue mauris. Adipiscing diam donec adipiscing tristique. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Sociis natoque penatibus et magnis dis parturient montes nascetur. Fames ac turpis egestas integer. Duis ultricies lacus sed turpis tincidunt. Mauris pharetra et ultrices neque ornare. Fermentum iaculis eu non diam phasellus vestibulum lorem. Mauris a diam maecenas sed enim ut sem viverra aliquet. Vulputate dignissim suspendisse in est ante in nibh mauris. Nec sagittis aliquam malesuada bibendum arcu vitae. Tellus pellentesque eu tincidunt tortor aliquam. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Aliquam etiam erat velit scelerisque. Nam at lectus urna duis convallis convallis tellus. Et malesuada fames ac turpis egestas sed tempus urna et. Viverra accumsan in nisl nisi scelerisque. Non pulvinar neque laoreet suspendisse interdum consectetur. Lorem donec massa sapien faucibus et molestie ac.
+**Terms of work such as:**
 
-Condimentum vitae sapien pellentesque habitant morbi tristique senectus. Enim ut tellus elementum sagittis vitae et leo duis. Neque viverra justo nec ultrices dui sapien. Cursus in hac habitasse platea dictumst. Fames ac turpis egestas maecenas pharetra. Id neque aliquam vestibulum morbi blandit cursus risus. Ultrices dui sapien eget mi proin sed libero enim sed. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Malesuada bibendum arcu vitae elementum curabitur. Morbi quis commodo odio aenean sed adipiscing diam. Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Eros in cursus turpis massa tincidunt dui ut. Quis ipsum suspendisse ultrices gravida. A diam maecenas sed enim ut. Facilisi morbi tempus iaculis urna id volutpat. Cras pulvinar mattis nunc sed. Sagittis orci a scelerisque purus semper eget duis at. Neque egestas congue quisque egestas diam. Tellus mauris a diam maecenas sed enim ut sem.
+1. Continuing & Deploying Website on Project Course 2.
 
+2. Tasks Must implement all the tasks that have been learned previously.
+
+3. Each person is judged by the commits pushed to github.
+
+---
+
+#  For Mr. Dian Hanifudin Subhi
+
+Thank You for the knowledge that has been given to us in this Cloud Computing Course
+
+<p align="center">
+<a href="#"><img width="60%" height="auto" src="https://giphy.com/gifs/kindafunny-thank-you-kinda-funny-greg-miller-RipfZWzjUDH25euMpM" height="175px"/></a>
+</p>
+
+<h1 align="center"><img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">Rajendra Rakha-1941720080</h1>

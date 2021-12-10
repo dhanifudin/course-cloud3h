@@ -1,10 +1,33 @@
 Nama : Rajendra Rakha Arya Prabaswara
+
 NIM  : 1941720080
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Vivamus at augue eget arcu dictum varius duis at. Eu lobortis elementum nibh tellus molestie nunc non blandit. Eget sit amet tellus cras adipiscing. Quis eleifend quam adipiscing vitae proin. Nunc lobortis mattis aliquam faucibus purus. Cursus turpis massa tincidunt dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Vel pretium lectus quam id leo in vitae. Ornare aenean euismod elementum nisi quis. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Enim sit amet venenatis urna cursus eget nunc. Nulla facilisi morbi tempus iaculis urna. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla.
+# Week 13
 
-Arcu cursus vitae congue mauris. Adipiscing diam donec adipiscing tristique. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Sociis natoque penatibus et magnis dis parturient montes nascetur. Fames ac turpis egestas integer. Duis ultricies lacus sed turpis tincidunt. Mauris pharetra et ultrices neque ornare. Fermentum iaculis eu non diam phasellus vestibulum lorem. Mauris a diam maecenas sed enim ut sem viverra aliquet. Vulputate dignissim suspendisse in est ante in nibh mauris. Nec sagittis aliquam malesuada bibendum arcu vitae. Tellus pellentesque eu tincidunt tortor aliquam. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Aliquam etiam erat velit scelerisque. Nam at lectus urna duis convallis convallis tellus. Et malesuada fames ac turpis egestas sed tempus urna et. Viverra accumsan in nisl nisi scelerisque. Non pulvinar neque laoreet suspendisse interdum consectetur. Lorem donec massa sapien faucibus et molestie ac.
+# Serverless with Oracle Functions, Events and API Gateway
 
-Condimentum vitae sapien pellentesque habitant morbi tristique senectus. Enim ut tellus elementum sagittis vitae et leo duis. Neque viverra justo nec ultrices dui sapien. Cursus in hac habitasse platea dictumst. Fames ac turpis egestas maecenas pharetra. Id neque aliquam vestibulum morbi blandit cursus risus. Ultrices dui sapien eget mi proin sed libero enim sed. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Malesuada bibendum arcu vitae elementum curabitur. Morbi quis commodo odio aenean sed adipiscing diam. Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Eros in cursus turpis massa tincidunt dui ut. Quis ipsum suspendisse ultrices gravida. A diam maecenas sed enim ut. Facilisi morbi tempus iaculis urna id volutpat. Cras pulvinar mattis nunc sed. Sagittis orci a scelerisque purus semper eget duis at. Neque egestas congue quisque egestas diam. Tellus mauris a diam maecenas sed enim ut sem.
+1. Oracle Function
+
+Oracle Cloud Functions is a serverless platform that allows developers to create, run, and
+scale applications without managing any infrastructure. Functions integrated with Oracle Cloud Infrastructure, platform services, and SaaS applications
+
+* How it works
+Push function image to registry => Configure function trigger => Code runs only when triggered => Pay for code execution time only
+
+2. Oracle Events Service
+
+Oracle Cloud Infrastructure Events Service tracks resource changes using
+Cloud Native Computing Foundation (CNCF) compliant events. Developer
+can respond to changes in real-time by triggering Functions code, writing to
+Stream, or send alerts using Notifications.
+
+3. OCI API Gateway
+
+The API Gateway service allows you to create HTTP/S interfaces that are set up for the service
+others, including Oracle Functions, Container Engine for Kubernetes, and Container
+Registry. API Gateway also provides policy enforcement such as authentication and
+speed limitation to HTTP/S endpoints.
+
 
