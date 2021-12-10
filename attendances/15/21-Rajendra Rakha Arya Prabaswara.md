@@ -37,3 +37,8 @@ Availability cannot be calculated, nor guaranteed. Availability can only be repo
 5. Environmental issues
 
 8. Complexity of the infrastructure
+
+## About CI/CD
+
+CI/CD is a method for frequently delivering applications to customers by introducing automation into the application development stage.
+The "CI" in CI/CD always refers to continuous integration, which is an automation process for developers. Successful CI means new code changes to the application are regularly created, tested, and merged into a shared repository."CD" in CI/CD refers to continuous delivery and/or continuous deployment, which are related concepts that are sometimes used interchangeably.
