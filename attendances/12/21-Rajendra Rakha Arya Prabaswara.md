@@ -1,10 +1,61 @@
 Nama : Rajendra Rakha Arya Prabaswara
+
 NIM  : 1941720080
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus a pellentesque sit. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Vivamus at augue eget arcu dictum varius duis at. Eu lobortis elementum nibh tellus molestie nunc non blandit. Eget sit amet tellus cras adipiscing. Quis eleifend quam adipiscing vitae proin. Nunc lobortis mattis aliquam faucibus purus. Cursus turpis massa tincidunt dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Vel pretium lectus quam id leo in vitae. Ornare aenean euismod elementum nisi quis. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Enim sit amet venenatis urna cursus eget nunc. Nulla facilisi morbi tempus iaculis urna. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla.
+# Week 12 
 
-Arcu cursus vitae congue mauris. Adipiscing diam donec adipiscing tristique. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Sociis natoque penatibus et magnis dis parturient montes nascetur. Fames ac turpis egestas integer. Duis ultricies lacus sed turpis tincidunt. Mauris pharetra et ultrices neque ornare. Fermentum iaculis eu non diam phasellus vestibulum lorem. Mauris a diam maecenas sed enim ut sem viverra aliquet. Vulputate dignissim suspendisse in est ante in nibh mauris. Nec sagittis aliquam malesuada bibendum arcu vitae. Tellus pellentesque eu tincidunt tortor aliquam. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Aliquam etiam erat velit scelerisque. Nam at lectus urna duis convallis convallis tellus. Et malesuada fames ac turpis egestas sed tempus urna et. Viverra accumsan in nisl nisi scelerisque. Non pulvinar neque laoreet suspendisse interdum consectetur. Lorem donec massa sapien faucibus et molestie ac.
+# CI/CD
 
-Condimentum vitae sapien pellentesque habitant morbi tristique senectus. Enim ut tellus elementum sagittis vitae et leo duis. Neque viverra justo nec ultrices dui sapien. Cursus in hac habitasse platea dictumst. Fames ac turpis egestas maecenas pharetra. Id neque aliquam vestibulum morbi blandit cursus risus. Ultrices dui sapien eget mi proin sed libero enim sed. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Malesuada bibendum arcu vitae elementum curabitur. Morbi quis commodo odio aenean sed adipiscing diam. Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Eros in cursus turpis massa tincidunt dui ut. Quis ipsum suspendisse ultrices gravida. A diam maecenas sed enim ut. Facilisi morbi tempus iaculis urna id volutpat. Cras pulvinar mattis nunc sed. Sagittis orci a scelerisque purus semper eget duis at. Neque egestas congue quisque egestas diam. Tellus mauris a diam maecenas sed enim ut sem.
+_Continuous Integration_ and _Continuous Deployment_ or commonly abbreviated CI/CD is an automation concept that helps programmers work to do the same thing without the need to run it manually.
+
+### Continuous Integration (CI)
+
+Refers to continuous integration which automates a process for developers. Successfully executed ci means new code changes to applications that are regularly built, tested, and incorporated in the same repository.
+
+### Continuous Delivery (CD)
+
+It is a process to automatically deploy applications in the production environment.
+
+### CI/CD Illustration
+
+1. CI Example 
+
+   - Build
+
+   - Test
+
+   - Merge
+
+2. CD Example
+
+   - Automatically release to repository
+
+   - Automatically Deploy To Production
+
+### Github Actions
+
+is a set of actions contained in the _workflow_ Github repository.
+
+- **Action** : The smallest block in a workflow, can be identified as an individual task.
+
+- **Artifacts** : Files that are generated during software development.
+
+- **Event** : A workflow trigger found in Github Actions. Triggers can be set at the time of push code to Github or pull requests that have been made.
+
+- **Job** : This is a defined step to execute an action.
+
+- **Step** : A task that contains an action or command to run the job.
+
+- **Workflow** : Processes set up in YAML files to define build, test, package, or deployment jobs.
+
+- **Workflow Run** : A workflow that executes based on preconfigured triggers/events.
+
+
+### Secrets and Tokens
+
+Used to protect sensitive information such as connections and passwords applied to application configuration settings.
+
+
 
